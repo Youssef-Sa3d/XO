@@ -1,0 +1,38 @@
+.game-board {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  background-color: transparent;
+  list-style: none;
+  row-gap: 25px;
+  padding-top: 2em;
+}
+.game-board li {
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.game-board li ol {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  list-style: none;
+  column-gap: 50px;
+}
+.game-board button {
+  border: none;
+  border-radius: 5px;
+  background-color: #00ADB5;
+  width: 2em;
+  height: 2em;
+  color: black;
+  cursor: pointer;
+  font-size: 45px;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #222831;
+}
+
+.game-board button :disabled {
+  cursor:context-menu;
+}

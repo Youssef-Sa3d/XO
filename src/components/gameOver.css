@@ -1,0 +1,42 @@
+.game-over {
+  background-color: #222831;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 10px; */
+  list-style: none;
+  padding: 2em 2em 1.5em 2em;
+  width: 540px;
+  height: 520px;
+  border-radius: 10px;
+  position: absolute;
+  /* color: #eeeeee; */
+  color: #00ADB5;
+  z-index: 2;
+  cursor: context-menu;
+}
+
+.game-over p {
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.game-over button {
+  /* color: #eeeeee; */
+  color: #00ADB5;
+  width: auto;
+  height: 50px;
+  font-size: 17px;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.game-over button:hover {
+  box-shadow: -1px -2px 30px -5px #00adb5;
+}
